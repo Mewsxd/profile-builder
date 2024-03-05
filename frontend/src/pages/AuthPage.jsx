@@ -73,7 +73,7 @@ const AuthPage = () => {
         body: JSON.stringify(reqBody),
       });
       response = await request.json();
-
+      https://github.com/Mewsxd/profile-builder
       if (response.status === "success") {
         nameRef.current.value = "";
         emailRef.current.value = "";

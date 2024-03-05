@@ -169,9 +169,9 @@ const Footer = () => {
         </div>
 
         {/* Section 2 */}
-        <div className="flex gap-16 lg:justify-between m480:gap-3">
+        <div className="flex gap-14 s620:flex-col s620:gap-9 ">
           <div className="leading-8 sm:leading-6">
-            <h6 className="font-bold sm:mb-4 uppercase text-lg text-scrlt pt-0 font-raleway">
+            <h6 className="font-bold sm:mb-1 uppercase text-lg text-scrlt pt-0 font-raleway">
               AI resume services
             </h6>
             <ul>
@@ -189,7 +189,7 @@ const Footer = () => {
 
           {/* Section 3 */}
           <div className="leading-8 sm:leading-6">
-            <h6 className="font-bold sm:mb-4 uppercase text-lg text-scrlt pt-0 font-raleway">
+            <h6 className="font-bold sm:mb-1 uppercase text-lg text-scrlt pt-0 font-raleway">
               AI chat
             </h6>
             <ul>
@@ -204,7 +204,7 @@ const Footer = () => {
 
           {/* Section 4 */}
           <div className="leading-8 sm:leading-6">
-            <h6 className="font-bold sm:mb-4 uppercase text-lg text-scrlt pt-0 font-raleway">
+            <h6 className="font-bold sm:mb-1 uppercase text-lg text-scrlt pt-0 font-raleway">
               Contact us
             </h6>
             <ul>
@@ -225,7 +225,7 @@ const Footer = () => {
       <div className="belowFooter flex mx-auto justify-between text-center text-gray-500 sm:flex-col">
         <p className="py-4 text-scrlt font-raleway font-medium">
           <span className="font-medium">&copy;</span>
-          <span className="logoHeading  tracking-wider cursor-pointer font-mono text-lg font-bold text-scrlt m480:text-[22px]">
+          <span className="logoHeading  tracking-wider cursor-pointer font-mono text-lg font-bold text-scrlt m480:text-[20px]">
             ProfileBuilder
           </span>
           2024. All rights reserved.

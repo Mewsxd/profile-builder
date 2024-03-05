@@ -16,7 +16,6 @@ import FourSimpleSteps from "./FourSimpleSteps";
 import StepComponent1 from "../../components/HomeComponents/Stepcomponent1";
 import StepComponent2 from "../../components/HomeComponents/stepcomponent2";
 import StepComponent3 from "../../components/HomeComponents/Stepcomponent3";
-import Resume1 from "./Resume1";
 const HeroSection = () => {
   const [isOpen, setIsOpen] = useState(false);
   const chooseUsRef = useRef(null);
@@ -44,7 +43,7 @@ const HeroSection = () => {
             ProfileBuilder
           </h1>
         </div>
-        <div className="navs mr-20 flex gap-8 text-base font-semibold font-raleway text-scrlt md:hidden">
+        <div className="navs mr-20 flex gap-8 text-base font-semibold font-raleway text-scrlt air:hidden">
           <p
             onClick={() => scrollToTarget("Choose us")}
             className="cursor-pointer"
@@ -63,12 +62,12 @@ const HeroSection = () => {
         </div>
         <div className="login font-raleway text-base font-semibold text-scrlt">
           <Link to={"/dashboard"}>
-            <button className="loginBtn transition ease-in-out delay-100 px-5 py-2 border-[2px] border-oliv rounded-md hover:border-[2px] hover:py-2 hover:px-5 hover:border-scrlt hover:rounded-md md:hidden">
+            <button className="loginBtn transition ease-in-out delay-100 px-5 py-2 border-[2px] border-oliv rounded-md hover:border-[2px] hover:py-2 hover:px-5 hover:border-scrlt hover:rounded-md air:hidden">
               Login
             </button>
           </Link>
         </div>
-        <div className="Menu text-[28px] font-extrabold text-scrlt hidden md:block">
+        <div className="Menu text-[28px] font-extrabold text-scrlt hidden air:block">
           <RiMenu3Line onClick={() => setIsOpen(!isOpen)} />
         </div>
       </div>
@@ -117,7 +116,6 @@ const HeroSection = () => {
       </div>
       <FourSimpleSteps />
       <WhyChooseUs ref={chooseUsRef} />
-      <Resume1 />
       <OurFeatures ref={featuresRef} />
       <StepComponent1 />
       <StepComponent2 />

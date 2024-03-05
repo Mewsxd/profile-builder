@@ -16,7 +16,7 @@ const PricingCard = ({
   return (
     <div
       className={`mainContainer bg-oliv rounded-xl font-poppins shadow-xl ${
-        best && "scale-[1.2] sm:scale-100 lg:scale-100  lg2:scale-100"
+        best && "scale-[1.2] lg3:scale-100 sm:scale-100 lg:scale-100 "
       }`}
     >
       <div className="mainContainer w-[300px] h-[28rem] sm:w-full">

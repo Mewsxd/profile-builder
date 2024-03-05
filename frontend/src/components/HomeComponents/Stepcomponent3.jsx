@@ -18,11 +18,9 @@ const Resume3 = () => {
           </p>
           <p className="font-inter text-scrlt pt-10 air:pt-8 air:pl-0 sm2:pl-4">
             Create countless tailored resumes for every job you're applying for.
-            Add or remove sections, change templates, or tweak the content as
-            needed. Our fast & easy resume generator guarantees a flawless
-            layout no matter how many changes you make, or how short or long
-            your resume is. Download your ready resume in PDF, Word or TXT
-            format and start applying for jobs instantly.
+            Add or remove sections, change templates as needed. Download your
+            ready resume in PDF, Word or TXT format and start applying for jobs
+            instantly.
           </p>
         </div>
       </div>
